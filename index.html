@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Kevin Rangel</title>
+    <!--=============================
+    PLUGINS DE CSS          
+    ==============================-->
+    <!-- PRINCIPAL CSS -->
+    <link rel="stylesheet" href="css/main.css">
+   
+    <!-- BOOTSTRAP 4 -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha256-916EbMg70RQy9LHiGkXzG8hSg9EdNy97GazNG/aiY1w=" crossorigin="anonymous" /> -->
+    <link rel="stylesheet" href="lib/bootstrap.min.css">
+    <!-- FONTSAWESOME -->
+    <!-- <link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css"> -->
+    <link rel="stylesheet" href="fonts/fontawesome5/web-fonts-with-css/css/fontawesome-all.css">
+        <!-- <script src="https://kit.fontawesome.com/ef87ffd06d.js"></script> -->
+
+    
+    <!--=============================
+     PLUGINS DE JS        
+    ==============================-->
+
+    <!-- jQuery library -->
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> -->
+    <script src="lib/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script> -->
+    <script src="lib/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script> -->
+    <script src="lib/bootstrap.min.js"></script>
+    
+    <!-- SCROOLL REVEAL -->
+    <script src="ScrollReveal.js"></script>
+
+    
+</head>
+<body>
+<!--=============================
+HEADER         
+==============================-->
+  <header class="container-fluid p-0" >
+    <div class="row m-0">
+        <nav class="col-12 redes m-0">
+          <ul class=" d-flex  justify-content-end pt-2 mt-0">
+         
+            <li class="">
+              <a href="" >
+                <i class="fab fa-instagram lead rounded-circle text-white mr-3" style="padding-left: 3px" aria-hidden="true"></i>
+              </a>
+            </li>
+
+            <li>
+              <a href="" >
+                <i class="fab fa-facebook-f  rounded-circle text-white mr-3" style="padding-left: 3px" aria-hidden="true"></i>
+              </a>
+            </li>
+
+            <li>
+                <a href="" >
+                  <i class="fab fa-twitter rounded-circle text-white mr-3" aria-hidden="true"></i>
+                </a>
+            </li>
+            <li>
+                <a href="" class="header_menu_btn_lenguage">es</a> <span class="header_btn_lenguage_div">|</span><a href="" class="header_menu_btn_lenguage">en</a>
+
+            </li>
+          
+          </ul>
+          </nav>
+    </div>
+
+    <div class="contenedor_main">
+      <div class="main_header_container">
+        <div class="main__header__title-izq">
+          <span >&lt</span>
+        </div>
+        <div class="main_header_title">
+          <h1><span>{</span>Kevin Rangel<span>}</span></h1>
+        </div>
+           
+           <div class="main__header__title-der">
+             <span >&gt</span>
+           </div>
+      </div>
+      <div class="main_header_subtitle">Desarrollador Frontend & Movil</div>
+      
+      <div class="main_header_btn_next">
+              <a href=#App>
+                <i class=" fa fa-2x fa-arrow-down"></i>
+              </a>
+      </div>
+    </div>
+  </header>
+<!-- =============================
+PANEL-MAIN         
+==============================-->
+  <section class="app_main" id="App" >
+    <div class="container-fluid">
+      <div class="row">
+          <div class="app_panel p-0 col-lg-4 col-md-12">
+              <div class="app_panel_img rounded-circle d-none d-md-flex">
+                <img src="img/photo_perfil.jpg" alt="" class="img-fluid rounded-circle">
+              </div>
+              <h2 class="app_panel_name d-none d-md-flex ">Kevin Rangel</h2>
+              <div class="app-panel-info">
+
+              </div>
+              <!-- <h3 class="app_panel_info"></h3> -->
+              
+              <div class="app_panel_btns d-flex">
+                <div class="app_panel_btn" id="panel-btn-info">
+                  <a ><i class="fa fa-user" id="panel-btn-info-logo" aria-hidden="true"></i></a>
+                </div>
+                <div class="app_panel_btn" id="panel-btn-tools">
+                    <a ><i class="fas fa-home" id="panel-btn-tools-logo" aria-hidden="true"></i></a>
+                  </div>
+                <div class="app_panel_btn" id="panel-btn-portfolio">
+                  <a ><i class="fas fa-suitcase " id="panel-btn-portfolio-logo" aria-hidden="true"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="app_main_panel_wiew col-lg-8 w-100" id="app_main_panel_wiew"></div>
+      </div>
+      </div>  
+  </section>
+
+
+<!-- SCRIPT -->
+<script src="js/main.js"></script>
+</body>
+</html>
+<script type="text/javascript">
+
+$(document).ready(function(){
+  $('#panel-btn-info').addClass("activa");
+  $('#app_main_panel_wiew').load('info-personal.html');
+  $('.app-panel-info').load('app-panel-info-show.html');
+
+  $('#panel-btn-info').click(function(){
+    $('#panel-btn-tools').removeClass("activa");
+    $('#panel-btn-portfolio').removeClass("activa");
+    $(this).addClass("activa");
+    $('#app_main_panel_wiew').load('info-personal.html');
+    $('.app-panel-info').load('app-panel-info-show.html');
+
+
+  });
+
+  //CAMBIAr COLOr DEL LOGO CON EL CLICK AGREGANDO
+  $('#panel-btn-info').click(function(){
+    $('#panel-btn-tools').removeClass("activa");
+    $('#panel-btn-portfolio').removeClass("activa");
+    $(this).addClass("activa");
+    $('#app_main_panel_wiew').load('info-personal.html');
+    $('.app-panel-info').load('app-panel-info-show.html');
+
+
+  });
+
+  $('#panel-btn-tools').click(function(){
+    $('#panel-btn-info').removeClass("activa");
+    $('#panel-btn-portfolio').removeClass("activa");
+    $(this).addClass("activa");
+    $('#app_main_panel_wiew').load('tools.html');
+    $('.app-panel-info').load('app-panel-tools-show.html');
+
+
+  }); 
+  
+  $('#panel-btn-portfolio').click(function(){
+    $('#panel-btn-info').removeClass("activa");
+    $('#panel-btn-tools').removeClass("activa");
+    $(this).addClass("activa");
+    $('#app_main_panel_wiew').load('portfolio.html');
+    $('.app-panel-info').load('app-panel-portfolio-show.html');
+
+
+  });    
+});
+
+
+
+  
+</script>
