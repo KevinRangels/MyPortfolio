@@ -1,0 +1,91 @@
+1er proyecto
+titulo : Pagina web Graphel
+Descripcion: Proyectos personal poniendo en practica conocimientos sobre HTML, CSS y fundamentos responsive para la 
+maquetacion de la pagina web desde cero. 
+Enlace a pagina: https://kevinrangels.github.io/WebGraphel/.
+Enlace a repositorio : https://github.com/KevinRangels/WebGraphel
+
+2do proyecto
+titulo : Pagina web Titanium
+Descripcion: Proyectos personal poniendo en practica conocimientos sobre HTML, CSS y fundamentos responsive con la 
+propiedad Flexbox para la maquetacion de la pagina web desde cero. 
+Enlace a pagina: https://kevinrangels.github.io/webTitanium/
+Enlace a repositorio : https://github.com/KevinRangels/webTitanium
+
+3er proyecto
+titulo : Pagina web Skew
+Descripcion: Proyectos personal poniendo en practica conocimientos sobre HTML, CSS y fundamentos responsive 
+para la maquetacion de la pagina web desde cero. Aplicando la metodologia BEN para el desarrollo
+             y mantenimiento del codigo
+Enlace a pagina: https://kevinrangels.github.io/PageSkew/
+Enlace a repositorio : https://github.com/KevinRangels/PageSkew
+
+
+4to proyecto
+titulo : Pagina web Ardor
+Descripcion: Proyectos personal poniendo en practica conocimientos sobre HTML, CSS y fundamentos responsive con
+la libreria Bootstrap 4 para la maquetacion de la pagina web desde cero. 
+Enlace a pagina: https://kevinrangels.github.io/Web-Ardor-cels/
+Enlace a repositorio : https://github.com/KevinRangels/Web-Ardor-cels
+
+5to proyecto
+titulo : Pagina web robot vision
+Descripcion: Proyecto personal poniendo en practica conocimientos sobre HTML, CSS y fundamentos responsive con
+la libreria Bootstrap 4 para la maquetacion de la pagina web desde cero. 
+Enlace a pagina: https://kevinrangels.github.io/WebSiteRobotVision/
+Enlace a repositorio : https://github.com/KevinRangels/WebSiteRobotVision
+
+6to proyecto
+titulo : iSOCIAL
+Descripcion: Proyecto personal aplicando HTML, CSS y fundamentos responsive con
+la libreria Bootstrap 4 y sus clases para la maquetacion de la pagina web desde cero. 
+Enlace a pagina: https://kevinrangels.github.io/web-isocial/
+Enlace a repositorio : https://github.com/KevinRangels/web-isocial
+
+7mo proyecto
+titulo : Pagina web Wi-Quotes
+Descripcion: Trabajo Freelance Maquetacion de diseño en PS de pagina web desde cero, aplicando la metodologia BEN para el desarrollo
+             y mantenimiento del codigo html, css y js. Se utilizo git para el manejo de versiones del proyecto como la libreria Bootstrap
+             para la adaptacion de pantallas
+Enlace a pagina: https://kevinrangels.github.io/wi-quotes/
+Enlace a repositorio : https://github.com/KevinRangels/wi-quotes
+
+
+8vo proyecto
+titulo : Desarrollo de Sistema de registro y control de liga de beisbol
+Descripcion: Desarrollo de un sistema de registro y control para la Asociacion de Umpires del estado Merida
+            donde este cuenta con un login de usuarios que tienen funciones como guardar, editar, consultar y eliminar informacion alojada en una base de datos sobre
+            los equipos, jugadores y anotaciones  dando resultados de tablas con las mejores posiciones en cada categoria
+            El sistema fue realizado con PHP puro desarrollando la base de datos  con su diagrama entidad relacion,
+             MYSQL, javascript, AJAX, librerias como bootstrap y para exportar datos en PDF
+Enlace a repositorio : https://github.com/KevinRangels/SIBeisball
+
+9vo proyecto
+titulo : Desarrollo de Sistema de registro y control a la alcaldia
+Descripcion: Desarrollo de un sistema de registro y control para el departamento de 
+            recursos humanos de la alcaldia  del estado Merida  donde este cuenta con
+            un login de dos tipos de usuarios que depende de este tienen funciones como
+             guardar, editar, consultar y eliminar informacion alojada en una base de datos sobre
+            la informacion y documentos que deben entregar las personas cuando comienzan a trabar en la alcaldia,
+             
+            El sistema fue realizado con PHP puro desarrollando la base de datos  con su diagrama
+             entidad relacion, MYSQL, javascript, AJAX, librerias como bootstrap, tablas dinamicas
+             para la consulta como exportacion en distintos formatos de la informacion y paginacion de los registros
+Enlace a repositorio : https://github.com/KevinRangels/SistemaAlcaldiaMerida
+
+10mo proyecto
+titulo : Desarrollo de Sistema de registro y control para CORMETUR
+Descripcion: Desarrollo de un sistema de registro y control para la corporacion merideña de turismo
+            donde este cuenta con  un login de dos tipos de usuarios que depende de este tienen funciones como
+             guardar, editar, consultar y eliminar informacion alojada en una base de datos sobre
+            la informacion e imagenes que tienen los distintos sitios turisticos del estado,
+             
+            El sistema fue realizado con PHP puro desarrollando la base de datos  con su diagrama
+             entidad relacion, MYSQL, javascript, AJAX, librerias como bootstrap, tablas dinamicas
+             para la consulta como exportacion en distintos formatos de la informacion.
+
+            Desarrollo una API para exportar los datos en formato JSON a una aplicacion movil
+Enlace a repositorio : https://github.com/KevinRangels/SIBeisball
+
+
+

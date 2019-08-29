@@ -15,7 +15,30 @@ a:visited, a:link, a:focus, a:hover, a:active{
     list-style: none;
     text-decoration: none;
 }
-
+.project-modal-tools.css{
+    background: rgb(76, 197, 245);
+    color: white;
+}
+.project-modal-tools.js{
+    background: rgb(231, 217, 22);
+    color: white;
+}
+.project-modal-tools.git{
+    background: rgb(206, 64, 21);
+    color: white;
+}
+.project-modal-tools.php{
+    background: rgb(106, 19, 206);
+    color: white;
+}
+.project-modal-tools.bootstrap{
+    background: rgb(166, 35, 184);
+    color: white;
+}
+.project-modal-tools.html{
+    background: rgb(228, 117, 14);
+    color: white;
+}
 /*=============================================
 MAIN HEADER MENU 
 =============================================*/
@@ -944,7 +967,7 @@ font-size: 200px;
         font-size: 12px;
     }
   .project-modal-tools{
-      background: red;
+      /* background: red; */
       border: 1px solid black;
   }
   .project-modal-enlaces{
