@@ -12,8 +12,8 @@ ul, ol{
 }
 
 a:visited, a:link, a:focus, a:hover, a:active{
-    list-style: none;
-    text-decoration: none;
+	list-style: none;
+	text-decoration: none;
 }
 .project-modal-tools.css{
     background: rgb(76, 197, 245);
@@ -231,6 +231,9 @@ PANEL_INFO
     color: white;
     margin: 4%;
     position: relative;
+}
+.panel-view-info .app_panel_redes a{
+    color: white;
 }
 .app_panel_redes{
     display: flex;
