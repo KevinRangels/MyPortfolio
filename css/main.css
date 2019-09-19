@@ -105,10 +105,11 @@ MAIN
   width: 100%;
   margin-left:auto;
   text-align: center;
+  overflow: hidden;
 }
 .main_header_container{
-    margin: 5% auto;
-    height: 200px;
+    /* margin: 5% auto; */
+    /* height: 100px; */
     width: 100%;
     text-align: center;
     display: flex;
@@ -120,7 +121,7 @@ MAIN
     width: 60%;
     color:#fff; 
     letter-spacing: 10px;
-    margin-top: 100px;
+    margin-top: 140px;
 }
 .main_header_title h1{
     font-size:5.8em;   
@@ -130,13 +131,13 @@ MAIN
     margin: 0 -10px;  
 }
 .main__header__title-izq{
-    margin-top: 15px;
+    margin-top: 55px;
     width: 9%;
     font-size: 220px;
     color: gold;
 }
 .main__header__title-der{
-    margin-top: 15px;
+    margin-top: 55px;
     width: 9%;
     font-size: 220px;
     color: gold;
@@ -144,7 +145,11 @@ MAIN
 .main_header_subtitle{
     color: #fff;
     font-weight: 500;
-    font-size: 1.4em;
+    font-size: 1.6em;
+    margin-top: -70px;
+}
+h3.main_header_subtitle{
+    
 }
 .main_header_btn_next{
     color: white;
@@ -435,8 +440,8 @@ TABLET HORIZONTAL (LG revisamos en 1024px)
 ==========================================*/
 @media (max-width:1199px) and (min-width:992px){
     .main_header_container{
-        margin: 12% auto 0 auto;
-        height: 120px;
+        /* margin: 12% auto 0 auto; */
+        /* height: 120px; */
         width: 100%;
         text-align: center;
         display: flex;
@@ -447,23 +452,23 @@ TABLET HORIZONTAL (LG revisamos en 1024px)
         width: 70%;
         color:#fff; 
         letter-spacing: 10px;
-        margin-top: 72px;
+        margin-top: 130px;
     }
     .main_header_title h1{
-        font-size:80px; 
+        font-size:5.2em; 
     }
     .main_header_title h1 span{
         font-size:80px;
         margin: 0px -1px 10px -1px;  
     }
     .main__header__title-izq{
-        margin-top: 10px;
+        margin-top: 65px;
         width: 9%;
         font-size: 160px;
         color: gold;
     }
     .main__header__title-der{
-        margin-top: 10px;
+        margin-top: 65px;
         width: 9;
         font-size: 160px;
         color: gold;
@@ -472,15 +477,18 @@ TABLET HORIZONTAL (LG revisamos en 1024px)
         color: #fff;
         font-weight: 500;
         font-size: 1.4em;
-        margin-top: 50px;
-        margin-bottom: 220px;
     }
     .main_header_btn_next{
         color: white;
-        /* margin-top: 125px; */
+        width: 100%;  
         margin-bottom: 0;
         font-size: 2em;
         text-decoration: none;
+    }
+    .tool-card{
+        width: 22%;
+        border: 2px solid gold;
+        margin: 15px 15px 15px 5px;
     }
 }
 
@@ -489,53 +497,51 @@ TABLET VETICAL (MD revisamos en 768px)
 =======================================*/
 @media (max-width:991px) and (min-width:768px){
     .main_header_container{
-        margin: 11% auto 0 auto;
-        height: 120px;
-        width: 90%;
+        
+        width: 100%;
         text-align: center;
         display: flex;
         justify-content: center;
         text-align: center;
-        /* padding: 2em 0; */
-    }.main_header_title{
-        width: 90%;
+        padding: 0;
+        margin: 0;
+    }
+    .main_header_title{
+        width: 70%;
         color:#fff; 
-        letter-spacing: 10px;
-        margin-top: 62px;
+        letter-spacing: 7px;
+        margin-top: 130px;
     }
     .main_header_title h1{
-        font-size:65px; 
+        font-size:5em; 
     }
     .main_header_title h1 span{
         font-size:80px;
         margin: 0px -1px 10px -1px;  
     }
     .main__header__title-izq{
-        margin-top: 30px;
+        margin-top: 65px;
         width: 9%;
-        font-size: 120px;
+        font-size: 160px;
         color: gold;
     }
     .main__header__title-der{
-        margin-top: 30px;
-        width: 9;
-        font-size: 120px;
+        margin-top: 65px;
+        width: 9%;
+        font-size: 160px;
         color: gold;
     }
     .main_header_subtitle{
         color: #fff;
         font-weight: 500;
         font-size: 1.4em;
-        margin-top: 50px;
-        margin-bottom: 220px;
     }
     .main_header_btn_next{
         color: white;
-        /* margin-top: 125px; */
-        margin-bottom: 0;
+        width: 100%;
+          
         font-size: 2em;
         text-decoration: none;
-        
     }
     /*===================================
     APP MAIN MD
